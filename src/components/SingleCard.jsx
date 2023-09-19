@@ -9,7 +9,7 @@ const SingleCard = (props) => {
             <div className="card-body">
                 <h2 className="card-title">Features</h2>
                 <ol>
-                    {features.map((feature, i) => <li key={i}>{i + 1}. {feature}</li>)}
+                    {features?.map((feature, i) => <li key={i}>{i + 1}. {feature}</li>)}
                 </ol>
                 <hr />
             </div>
